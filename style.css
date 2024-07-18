@@ -31,11 +31,21 @@ body{
     background-image: url("./img/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container-caixa{
+    margin: 0 6em;
 }
 
 .container-titulo{
     font-size: 28px;
     font-weight: 700;
+}
+
+.container-imagem{
+    margin: 1em 0 2em 0;
 }
 
 .container-botao{
@@ -45,6 +55,7 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao-secundario{
